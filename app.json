@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/find/find",
+    "pages/news/news",
+    "pages/my/my"
+    
+  ],
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#2c2c2c",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "找工作",
+        "iconPath": "./icon/index1.png",
+        "selectedIconPath": "./icon/index2.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "./icon/find1.png",
+        "selectedIconPath": "./icon/find2.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "./icon/news1.png",
+        "selectedIconPath": "./icon/news2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./icon/my1.png",
+        "selectedIconPath": "./icon/my2.png"
+      }
+    ]
+  },
+  
+    
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
